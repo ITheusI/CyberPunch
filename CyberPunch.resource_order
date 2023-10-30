@@ -17,6 +17,7 @@
     {"name":"Fase 1","order":9,"path":"folders/Sprites/Fase 1.yy",},
     {"name":"Fase 2","order":11,"path":"folders/Sprites/Fase 2.yy",},
     {"name":"Vega","order":10,"path":"folders/Sprites/Vega.yy",},
+    {"name":"Balrog","order":12,"path":"folders/Sprites/Balrog.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
@@ -33,6 +34,7 @@
     {"name":"spr_idle","order":3,"path":"sprites/spr_idle/spr_idle.yy",},
     {"name":"spr_bk2","order":1,"path":"sprites/spr_bk2/spr_bk2.yy",},
     {"name":"spr_wall","order":15,"path":"sprites/spr_wall/spr_wall.yy",},
+    {"name":"spr_walk2","order":1,"path":"sprites/spr_walk2/spr_walk2.yy",},
     {"name":"spr_bkfundo","order":1,"path":"sprites/spr_bkfundo/spr_bkfundo.yy",},
   ],
 }
