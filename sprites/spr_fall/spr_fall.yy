@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"671931e9-12ef-4f44-94bc-9c48d48fe02c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 7,
   "parent": {
     "name": "Balrog",
     "path": "folders/Sprites/Balrog.yy",
@@ -60,7 +60,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 18,
-    "yorigin": 41,
+    "yorigin": 82,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
