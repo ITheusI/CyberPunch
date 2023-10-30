@@ -35,24 +35,24 @@ vspd = 0;
  
 if (!place_meeting(x,y+1,obj_wall))
 {
-	sprite_index = spr_jump;
-	if (sign(vspd) > 0.5) sprite_index = spr_fall; else sprite_index = spr_jump;
+	sprite_index = spr_jump1;
+	if (sign(vspd) > 0.5) sprite_index = spr_fall1; else sprite_index = spr_jump1;
 }
 else
 {
 	if (hspd != 0)
 	{
-		sprite_index = spr_walk;
+		sprite_index = spr_walk1;
 	}
 }
 if hspd = 0 {
 	if place_meeting(x,y+1,obj_wall){
 		
-		sprite_index = spr_idle
+		sprite_index = spr_idle1
 	}
 }
 if hspd  != 0 {
 	if place_meeting(x,y+1,obj_wall){
-		sprite_index = spr_walk;
+		sprite_index = spr_walk1;
 	}
 }
