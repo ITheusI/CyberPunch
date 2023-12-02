@@ -5,6 +5,7 @@ function PlayerStateFree(){
 
 
  var move = key_right - key_left;
+
  
  hspd = move * spd;
  vspd = vspd + grv;
@@ -58,6 +59,34 @@ if hspd  != 0 {
 		sprite_index = spr_walk;
 	}
 }
+ 
+var flipped = direction;
+var gun_x = x+48*(flipped);
+var _xx = x +  lengthdir_x(15, image_angle);
+var y_offset = lengthdir_y(-20, image_angle); 
+
+if key_atk and global.hit > 0
+{
+	sprite_index = spr_atk
+	with(instance_create_layer(_xx,y+10,"hit",obj_hit)){
+	speed = 1;
+	direction = -90 + 90 * other.image_xscale;
+	image_angle = direction;
+	}
+	
+}
+if key_atk2 and global.hit > 0
+{
+	sprite_index = spr_atk2
+	with(instance_create_layer(_xx,y+10,"hit",obj_hit)){
+	speed = 1;
+	direction = -90 + 90 * other.image_xscale;
+	image_angle = direction;
+	}
+	
+}
+
 
 
 }
+
